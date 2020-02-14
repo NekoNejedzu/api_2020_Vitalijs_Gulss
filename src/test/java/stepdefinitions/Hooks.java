@@ -14,10 +14,9 @@ public class Hooks {
     @Before
     public void beforeAll() {
         TestCaseContext.init();
-    } //šis tiks izpildīts pirms visiem soļioem. Palaižot testu, šī ir nākošā vieta aiz TestRunner, kura tiek izpildīta
-
+    }
     @After("@CreatedNewList")
     public void afterWasCreatedNewList() {
-        deleteClickUpFolder(TestCaseContext.get().getClickUpList().getId());
+        deleteClickUpFolder(TestCaseContext.get().getClickUpFolder().getId());
     }
 }
