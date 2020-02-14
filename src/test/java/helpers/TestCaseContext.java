@@ -1,7 +1,7 @@
 package helpers;
 
 
-import domain.Board;
+import domain.Folder;
 import domain.ClickUpList;
 
 public class TestCaseContext {
@@ -11,7 +11,7 @@ public class TestCaseContext {
     private TestCaseContext() { //šī klase nepieciešama, lai tajā tiktu glabātas kopīgas lietas, ko dalīt starp soļiem
     }
 
-    private Board trelloBoard;
+    private Folder ClickUpFolder;
     private ClickUpList clickUpList;
 
 
@@ -25,12 +25,12 @@ public class TestCaseContext {
 
     }
 
-    public Board getTrelloBoard() {
-        return trelloBoard;
+    public Folder getClickUpFolder() {
+        return ClickUpFolder;
     }
 
-    public void setTrelloBoard(final Board trelloBoard) {
-        this.trelloBoard = trelloBoard;
+    public void setclickUpFolder(final Folder ClickUpFolder) {
+        this.ClickUpFolder = ClickUpFolder;
     }
 
     public ClickUpList getClickUpList() {
