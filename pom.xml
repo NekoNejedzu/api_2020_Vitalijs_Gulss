@@ -48,7 +48,7 @@
         <rest-assured.version>3.1.0</rest-assured.version>
         <logback.version>1.2.3</logback.version>
         <json.version>20180130</json.version>
-        <jackson.version>2.9.9</jackson.version>
+        <jackson.version>2.10.0.pr1</jackson.version>
         <javax.ws.version>2.0</javax.ws.version>
         <cluecumber.version>1.5.0</cluecumber.version>
     </properties>
